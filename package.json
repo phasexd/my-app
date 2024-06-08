@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "bun --watch server/index.ts"
+    "dev": "bun --watch server/app/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
