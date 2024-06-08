@@ -8,14 +8,15 @@
   },
   "devDependencies": {
     "@types/bun": "latest"
-    
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@hono/node-server": "^1.11.2",
     "@hono/zod-validator": "^0.1.11",
     "cors": "^2.8.5",
+    "docker": "^1.0.0",
     "drizzle-orm": "^0.29.4",
     "drizzle-zod": "^0.5.1",
     "hono": "^4.4.4",
