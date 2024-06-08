@@ -1,7 +1,7 @@
 import {Hono} from 'hono';
 import {logger} from 'hono/logger'
 import { serveStatic } from 'hono/bun'
-import { itemsRoutes } from './Routes/items';
+import { itemsRoutes } from './app/items';
 import { cors } from 'hono/cors'
 import { handle } from 'hono/vercel'
 import type { PageConfig } from 'next'
